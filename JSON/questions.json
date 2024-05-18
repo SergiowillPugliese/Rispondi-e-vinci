@@ -1,0 +1,212 @@
+{
+    "questions": [
+        {
+            "level": 1,
+            "difficulty": "easy",
+            "questions": [
+                {
+                    "question": "Qual è il colore del cielo in una giornata serena?",
+                    "options": {
+                        "A": "Rosso",
+                        "B": "Blu",
+                        "C": "Verde",
+                        "D": "Giallo"
+                    },
+                    "correctAnswer": "B"
+                },
+                {
+                    "question": "Qual è la capitale d'Italia?",
+                    "options": {
+                        "A": "Milano",
+                        "B": "Roma",
+                        "C": "Venezia",
+                        "D": "Napoli"
+                    },
+                    "correctAnswer": "B"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "difficulty": "easy",
+            "questions": [
+                {
+                    "question": "Chi ha scritto 'La Divina Commedia'?",
+                    "options": {
+                        "A": "Dante Alighieri",
+                        "B": "Francesco Petrarca",
+                        "C": "Giovanni Boccaccio",
+                        "D": "Ludovico Ariosto"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "Qual è il simbolo chimico dell'acqua?",
+                    "options": {
+                        "A": "O2",
+                        "B": "H2O",
+                        "C": "CO2",
+                        "D": "H2"
+                    },
+                    "correctAnswer": "B"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "difficulty": "medium",
+            "questions": [
+                {
+                    "question": "Quanti pianeti ci sono nel sistema solare?",
+                    "options": {
+                        "A": "7",
+                        "B": "8",
+                        "C": "9",
+                        "D": "10"
+                    },
+                    "correctAnswer": "B"
+                },
+                {
+                    "question": "Qual è il fiume più lungo del mondo?",
+                    "options": {
+                        "A": "Nilo",
+                        "B": "Amazonas",
+                        "C": "Yangtze",
+                        "D": "Mississippi"
+                    },
+                    "correctAnswer": "B"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "difficulty": "medium",
+            "questions": [
+                {
+                    "question": "In quale anno è stata scoperta l'America?",
+                    "options": {
+                        "A": "1492",
+                        "B": "1500",
+                        "C": "1512",
+                        "D": "1488"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "Qual è l'animale terrestre più veloce?",
+                    "options": {
+                        "A": "Leopardo",
+                        "B": "Leone",
+                        "C": "Ghepardo",
+                        "D": "Gazzella"
+                    },
+                    "correctAnswer": "C"
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "difficulty": "hard",
+            "questions": [
+                {
+                    "question": "Qual è l'elemento chimico con simbolo Fe?",
+                    "options": {
+                        "A": "Ferro",
+                        "B": "Fosforo",
+                        "C": "Francio",
+                        "D": "Fluoro"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "Qual è la capitale dell'Australia?",
+                    "options": {
+                        "A": "Sydney",
+                        "B": "Melbourne",
+                        "C": "Canberra",
+                        "D": "Brisbane"
+                    },
+                    "correctAnswer": "C"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "difficulty": "hard",
+            "questions": [
+                {
+                    "question": "Chi ha dipinto la 'Gioconda'?",
+                    "options": {
+                        "A": "Michelangelo",
+                        "B": "Leonardo da Vinci",
+                        "C": "Raffaello",
+                        "D": "Tiziano"
+                    },
+                    "correctAnswer": "B"
+                },
+                {
+                    "question": "Quanti grammi ci sono in un chilogrammo?",
+                    "options": {
+                        "A": "10",
+                        "B": "100",
+                        "C": "1000",
+                        "D": "10000"
+                    },
+                    "correctAnswer": "C"
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "difficulty": "very hard",
+            "questions": [
+                {
+                    "question": "Chi ha scritto 'Il Gattopardo'?",
+                    "options": {
+                        "A": "Giuseppe Tomasi di Lampedusa",
+                        "B": "Italo Calvino",
+                        "C": "Alessandro Manzoni",
+                        "D": "Gabriele D'Annunzio"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "Qual è la distanza media tra la Terra e il Sole?",
+                    "options": {
+                        "A": "149.6 milioni di km",
+                        "B": "100 milioni di km",
+                        "C": "200 milioni di km",
+                        "D": "250 milioni di km"
+                    },
+                    "correctAnswer": "A"
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "difficulty": "very hard",
+            "questions": [
+                {
+                    "question": "Chi ha vinto il Premio Nobel per la Fisica nel 1921?",
+                    "options": {
+                        "A": "Albert Einstein",
+                        "B": "Niels Bohr",
+                        "C": "Marie Curie",
+                        "D": "Isaac Newton"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "In che anno è stata lanciata la prima navetta spaziale Apollo?",
+                    "options": {
+                        "A": "1965",
+                        "B": "1966",
+                        "C": "1967",
+                        "D": "1968"
+                    },
+                    "correctAnswer": "C"
+                }
+            ]
+        }
+    ]
+}

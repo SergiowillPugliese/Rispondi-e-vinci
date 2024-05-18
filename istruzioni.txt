@@ -1,0 +1,16 @@
+ I file sono js e compilati con babel. Questo ci permette di scrivere
+ con una sintassi più simile a react ma utilizzando sempre javascript.
+ Questo ci è utile per facilitare e velocizzare la scrittura
+ 
+ prizes.json
+ Include i montepremi con i livelli e le milestone. I checkpoint sono a 
+ true quando il concorrnete raggiunge un traguardo di 4 domande corrette
+ e quel checkpoint rappresenta il montepremi guadagnato. Qualora perdesse
+ il montepremi sarà quello ottenuto nell'ultimo checkpoint.
+
+
+ questions.json
+ Il JSON include domande per tutti e 12 i livelli, 
+ con tre domande per ciascun livello e diverse difficoltà. 
+ Puoi utilizzare questo formato per caricare le domande nel 
+ tuo gioco e gestire i diversi livelli di difficoltà. 
