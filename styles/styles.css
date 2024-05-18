@@ -1,0 +1,111 @@
+body, h1,h2,h3,h4,h5,h6, p, a, ul, li, ol, button, input, textarea, select{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/background.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+}
+
+div#fomrContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 350px;
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+div#fomrContainer > * {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+div#fomrContainer label.name {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+div#fomrContainer input#name {
+    border-radius: 30px;
+    height: 80%;
+    font-size: 70px;
+}
+
+div#fomrContainer button.name {
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: .6s;
+}
+
+div#fomrContainer button.name:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+div#sidecontainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+div#sidecontainer .prizes {
+    background: #ffffffcc;
+    width: 100%;
+    border-radius: 20px;
+    min-height: 75px;
+}
+
+div#sidecontainer .prizes p.prizesValue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+div#maincontainer {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 40px;
+}
+
+div#maincontainer div#userNameContent {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+div#gameSection {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+

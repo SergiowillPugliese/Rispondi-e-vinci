@@ -3,7 +3,7 @@
         {
             "level": 1,
             "difficulty": "easy",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Qual è il colore del cielo in una giornata serena?",
                     "options": {
@@ -29,7 +29,7 @@
         {
             "level": 2,
             "difficulty": "easy",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Chi ha scritto 'La Divina Commedia'?",
                     "options": {
@@ -55,7 +55,7 @@
         {
             "level": 3,
             "difficulty": "medium",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Quanti pianeti ci sono nel sistema solare?",
                     "options": {
@@ -81,7 +81,7 @@
         {
             "level": 4,
             "difficulty": "medium",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "In quale anno è stata scoperta l'America?",
                     "options": {
@@ -107,7 +107,7 @@
         {
             "level": 5,
             "difficulty": "hard",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Qual è l'elemento chimico con simbolo Fe?",
                     "options": {
@@ -133,7 +133,7 @@
         {
             "level": 6,
             "difficulty": "hard",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Chi ha dipinto la 'Gioconda'?",
                     "options": {
@@ -159,7 +159,7 @@
         {
             "level": 7,
             "difficulty": "very hard",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Chi ha scritto 'Il Gattopardo'?",
                     "options": {
@@ -185,7 +185,7 @@
         {
             "level": 8,
             "difficulty": "very hard",
-            "questions": [
+            "gameQuestions": [
                 {
                     "question": "Chi ha vinto il Premio Nobel per la Fisica nel 1921?",
                     "options": {
@@ -205,6 +205,110 @@
                         "D": "1968"
                     },
                     "correctAnswer": "C"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "difficulty": "expert",
+            "gameQuestions": [
+                {
+                    "question": "Chi ha scoperto la teoria della relatività?",
+                    "options": {
+                        "A": "Isaac Newton",
+                        "B": "Galileo Galilei",
+                        "C": "Albert Einstein",
+                        "D": "Niels Bohr"
+                    },
+                    "correctAnswer": "C"
+                },
+                {
+                    "question": "Qual è il continente più grande per superficie?",
+                    "options": {
+                        "A": "Africa",
+                        "B": "Asia",
+                        "C": "America del Nord",
+                        "D": "Antartide"
+                    },
+                    "correctAnswer": "B"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "difficulty": "expert",
+            "gameQuestions": [
+                {
+                    "question": "Chi ha scritto 'Guerra e Pace'?",
+                    "options": {
+                        "A": "Fëdor Dostoevskij",
+                        "B": "Lev Tolstoj",
+                        "C": "Aleksandr Pushkin",
+                        "D": "Anton Čechov"
+                    },
+                    "correctAnswer": "B"
+                },
+                {
+                    "question": "Qual è la lingua più parlata al mondo per numero di madrelingua?",
+                    "options": {
+                        "A": "Inglese",
+                        "B": "Spagnolo",
+                        "C": "Cinese mandarino",
+                        "D": "Hindi"
+                    },
+                    "correctAnswer": "C"
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "difficulty": "legendary",
+            "gameQuestions": [
+                {
+                    "question": "Qual è l'opera lirica più famosa di Giuseppe Verdi?",
+                    "options": {
+                        "A": "La Traviata",
+                        "B": "Nabucco",
+                        "C": "Rigoletto",
+                        "D": "Aida"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "Qual è la formula della velocità?",
+                    "options": {
+                        "A": "v = d/t",
+                        "B": "v = t/d",
+                        "C": "v = d*t",
+                        "D": "v = d+t"
+                    },
+                    "correctAnswer": "A"
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "difficulty": "legendary",
+            "gameQuestions": [
+                {
+                    "question": "Chi ha scoperto la penicillina?",
+                    "options": {
+                        "A": "Alexander Fleming",
+                        "B": "Louis Pasteur",
+                        "C": "Robert Koch",
+                        "D": "Joseph Lister"
+                    },
+                    "correctAnswer": "A"
+                },
+                {
+                    "question": "Qual è la città più popolosa del mondo?",
+                    "options": {
+                        "A": "Tokyo",
+                        "B": "New York",
+                        "C": "Shanghai",
+                        "D": "Delhi"
+                    },
+                    "correctAnswer": "A"
                 }
             ]
         }
