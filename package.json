@@ -1,0 +1,28 @@
+{
+  "name": "rispondi-e-vinci",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "./js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm:server\" \"npm:serve\"",
+    "server": "nodemon server.js",
+    "serve": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiowillPugliese/Rispondi-e-vinci.git"
+  },
+  "author": "Sergio Pugliese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiowillPugliese/Rispondi-e-vinci/issues"
+  },
+  "homepage": "https://github.com/SergiowillPugliese/Rispondi-e-vinci#readme",
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
