@@ -1,14 +1,21 @@
 import { Utils } from "../shared/Utils.js";
-import { paragraph } from "../shared/style.js";
+import { checkpointSizeParagraphStyle } from "../shared/style.js";
 
+/**
+ * La classe Template gestisce la creazione e il rendering del layout dell'applicazione.
+ */
 export class Template {
   #app = document.getElementById("app");
   #sidecontainer = Utils.createElement({ tagName: "div", id: "sidecontainer" });
   #maincontainer = Utils.createElement({ tagName: "div", id: "maincontainer" });
 
+  /**
+   * Inserisce un campo di input per il nome dell'utente e un pulsante per confermare l'inserimento.
+   * @returns {Promise<string>} Una promessa che risolve con il nome dell'utente inserito.
+   */
   async insertName() {
     const fragment = Utils.createFragment();
-    const div = Utils.createElement({ tagName: "div", id: "fomrContainer" });
+    const div = Utils.createElement({ tagName: "div", id: "formContainer" });
     const input = Utils.createElement({
       tagName: "input",
       id: "name",
@@ -38,13 +45,16 @@ export class Template {
         if (name) {
           resolve(name);
         } else {
-          alert("Please enter your name.");
+          alert("Per favore, inserisci il tuo nome.");
         }
       });
     });
   }
 
-  // Imposta il layout di base
+  /**
+   * Imposta il layout di base dell'applicazione.
+   * @param {Array} elContent1 - Un array di contenuti da visualizzare nella vista laterale.
+   */
   async baseViewTemplate(elContent1) {
     try {
       const userName = await this.insertName();
@@ -61,17 +71,21 @@ export class Template {
       this.#maincontainer.appendChild(div);
       this.#app.replaceChildren(this.#sidecontainer, this.#maincontainer);
     } catch (error) {
-      console.error("Error initializing the game:", error);
+      console.error("Errore nell'inizializzazione dell'applicazione:", error);
     }
   }
 
-  // Imposta il layout della vista laterale
+  /**
+   * Crea il layout della vista laterale.
+   * @param {Array} prizes - Un array di premi da visualizzare nella vista laterale.
+   * @returns {DocumentFragment} Un frammento di documento contenente il layout della vista laterale.
+   */
   #createSideViewTemplate = (prizes) => {
     const fragment = Utils.createFragment();
     prizes.forEach((prize) => {
       const prizeStyle = prize.checkpoint
-        ? paragraph("#DA2525", "center", "60px", "bold")
-        : paragraph("#000", "center", "45px", "bold");
+        ? checkpointSizeParagraphStyle("#DA2525", "center", "60px", "bold")
+        : checkpointSizeParagraphStyle("#000", "center", "45px", "bold");
       const prizeElement = Utils.createElement({
         tagName: "p",
         className: "prizesValue",
@@ -88,7 +102,11 @@ export class Template {
     return fragment;
   };
 
-  // Imposta il layout della vista principale
+  /**
+   * Aggiunge il nome dell'utente nella vista principale.
+   * @param {string} userName - Il nome dell'utente da visualizzare.
+   * @returns {DocumentFragment} Un frammento di documento contenente il nome dell'utente.
+   */
   #addUserNameInMainView = (userName) => {
     const fragment = Utils.createFragment();
     const h1 = Utils.createElement({
