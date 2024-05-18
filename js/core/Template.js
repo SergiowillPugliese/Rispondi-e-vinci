@@ -13,12 +13,11 @@ export class Template {
       tagName: "input",
       id: "name",
       className: "name",
-      placeholder: "Enter your name",
     });
     const label = Utils.createElement({
       tagName: "label",
       className: "name",
-      content: "Enter your name",
+      content: "Inserisci il tuo nome",
       htmlFor: "name",
     });
     const button = Utils.createElement({
