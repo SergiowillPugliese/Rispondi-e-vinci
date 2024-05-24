@@ -10,12 +10,12 @@ export class FetchData {
    */
   static async getPrizes() {
     try {
-      const response = await fetch("../../JSON/prizes.json");
+      const response = await fetch("http://localhost:3001/prizes");
       if (!response.ok) {
         throw new Error(`Errore HTTP! stato: ${response.status}`);
       }
       const data = await response.json();
-      return data.prizes.map(
+      return data.map(
         (prize) => new Prize(prize.level, prize.amount, prize.checkpoint)
       );
     } catch (error) {
@@ -30,12 +30,12 @@ export class FetchData {
    */
   static async getQuestions() {
     try {
-      const response = await fetch("../../JSON/questions.json");
+      const response = await fetch("http://localhost:3001/questions");
       if (!response.ok) {
         throw new Error(`Errore HTTP! stato: ${response.status}`);
       }
       const data = await response.json();
-      return data.questions.map(
+      return data.map(
         (x) =>
           new Question(
             x.level,

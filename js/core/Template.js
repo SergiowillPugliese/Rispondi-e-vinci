@@ -84,8 +84,8 @@ export class Template {
     const fragment = Utils.createFragment();
     prizes.forEach((prize) => {
       const prizeStyle = prize.checkpoint
-        ? checkpointSizeParagraphStyle("#DA2525", "center", "60px", "bold")
-        : checkpointSizeParagraphStyle("#000", "center", "45px", "bold");
+        ? checkpointSizeParagraphStyle("#DA2525", "center", "55px", "bold")
+        : checkpointSizeParagraphStyle("#000", "center", "40px", "bold");
       const prizeElement = Utils.createElement({
         tagName: "p",
         className: "prizesValue",
