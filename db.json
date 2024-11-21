@@ -3,7 +3,7 @@
         {
             "level": 1,
             "amount": 500,
-            "checkpoint": true
+            "checkpoint": false
         },
         {
             "level": 2,
