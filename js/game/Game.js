@@ -16,10 +16,34 @@ export class Game {
   }
 
   startGame() {
+    const level = 1;
+    const mainContainer = document.getElementById("maincontainer");
+    const sideContainer = document.getElementById("sideContainer");
+
+
     const gameSection = Utils.createElement({
       tagName: "div",
       id: "gameSection",
     });
-    document.body.appendChild(gameSection);
+
+    const questions = this.data.questions.find(q => q.level === level);
+
+    console.log(questions);
+
+    gameSection.innerHTML = `
+    <div id="questionSection">
+    <h2 id="questionText">${questions.gameQuestions[0].question}</h2>
+    </div>
+    <div id="answerSection">
+      ${questions.gameQuestions[0].options[0].map(option => `
+      <button class="answerButton">${option}</button>
+      `).join("")}
+    </div>
+    `
+
+
+
+
+    mainContainer.appendChild(gameSection);
   }
 }

@@ -124,3 +124,9 @@ div#gameSection {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
+div#questionSection {
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    padding: 30px;
+}

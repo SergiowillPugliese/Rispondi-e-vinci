@@ -3,7 +3,7 @@
         {
             "level": 1,
             "amount": 500,
-            "checkpoint": false
+            "checkpoint": true
         },
         {
             "level": 2,
@@ -68,22 +68,46 @@
             "gameQuestions": [
                 {
                     "question": "Qual è il colore del cielo in una giornata serena?",
-                    "options": {
-                        "A": "Rosso",
-                        "B": "Blu",
-                        "C": "Verde",
-                        "D": "Giallo"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Rosso"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Blu"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Verde"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Giallo"
+                        }
+                    ],
                     "correctAnswer": "B"
                 },
                 {
                     "question": "Qual è la capitale d'Italia?",
-                    "options": {
-                        "A": "Milano",
-                        "B": "Roma",
-                        "C": "Venezia",
-                        "D": "Napoli"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Milano"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Roma"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Venezia"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Napoli"
+                        }
+                    ],
                     "correctAnswer": "B"
                 }
             ]
@@ -94,22 +118,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha scritto 'La Divina Commedia'?",
-                    "options": {
-                        "A": "Dante Alighieri",
-                        "B": "Francesco Petrarca",
-                        "C": "Giovanni Boccaccio",
-                        "D": "Ludovico Ariosto"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Dante Alighieri"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Francesco Petrarca"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Giovanni Boccaccio"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Ludovico Ariosto"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "Qual è il simbolo chimico dell'acqua?",
-                    "options": {
-                        "A": "O2",
-                        "B": "H2O",
-                        "C": "CO2",
-                        "D": "H2"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "O2"
+                        },
+                        {
+                            "key": "B",
+                            "value": "H2O"
+                        },
+                        {
+                            "key": "C",
+                            "value": "CO2"
+                        },
+                        {
+                            "key": "D",
+                            "value": "H2"
+                        }
+                    ],
                     "correctAnswer": "B"
                 }
             ]
@@ -120,22 +168,46 @@
             "gameQuestions": [
                 {
                     "question": "Quanti pianeti ci sono nel sistema solare?",
-                    "options": {
-                        "A": "7",
-                        "B": "8",
-                        "C": "9",
-                        "D": "10"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "7"
+                        },
+                        {
+                            "key": "B",
+                            "value": "8"
+                        },
+                        {
+                            "key": "C",
+                            "value": "9"
+                        },
+                        {
+                            "key": "D",
+                            "value": "10"
+                        }
+                    ],
                     "correctAnswer": "B"
                 },
                 {
                     "question": "Qual è il fiume più lungo del mondo?",
-                    "options": {
-                        "A": "Nilo",
-                        "B": "Amazonas",
-                        "C": "Yangtze",
-                        "D": "Mississippi"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Nilo"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Amazonas"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Yangtze"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Mississippi"
+                        }
+                    ],
                     "correctAnswer": "B"
                 }
             ]
@@ -146,22 +218,46 @@
             "gameQuestions": [
                 {
                     "question": "In quale anno è stata scoperta l'America?",
-                    "options": {
-                        "A": "1492",
-                        "B": "1500",
-                        "C": "1512",
-                        "D": "1488"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "1492"
+                        },
+                        {
+                            "key": "B",
+                            "value": "1500"
+                        },
+                        {
+                            "key": "C",
+                            "value": "1512"
+                        },
+                        {
+                            "key": "D",
+                            "value": "1488"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "Qual è l'animale terrestre più veloce?",
-                    "options": {
-                        "A": "Leopardo",
-                        "B": "Leone",
-                        "C": "Ghepardo",
-                        "D": "Gazzella"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Leopardo"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Leone"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Ghepardo"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Gazzella"
+                        }
+                    ],
                     "correctAnswer": "C"
                 }
             ]
@@ -172,22 +268,46 @@
             "gameQuestions": [
                 {
                     "question": "Qual è l'elemento chimico con simbolo Fe?",
-                    "options": {
-                        "A": "Ferro",
-                        "B": "Fosforo",
-                        "C": "Francio",
-                        "D": "Fluoro"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Ferro"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Fosforo"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Francio"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Fluoro"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "Qual è la capitale dell'Australia?",
-                    "options": {
-                        "A": "Sydney",
-                        "B": "Melbourne",
-                        "C": "Canberra",
-                        "D": "Brisbane"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Sydney"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Melbourne"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Canberra"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Brisbane"
+                        }
+                    ],
                     "correctAnswer": "C"
                 }
             ]
@@ -198,22 +318,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha dipinto la 'Gioconda'?",
-                    "options": {
-                        "A": "Michelangelo",
-                        "B": "Leonardo da Vinci",
-                        "C": "Raffaello",
-                        "D": "Tiziano"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Michelangelo"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Leonardo da Vinci"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Raffaello"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Tiziano"
+                        }
+                    ],
                     "correctAnswer": "B"
                 },
                 {
                     "question": "Quanti grammi ci sono in un chilogrammo?",
-                    "options": {
-                        "A": "10",
-                        "B": "100",
-                        "C": "1000",
-                        "D": "10000"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "10"
+                        },
+                        {
+                            "key": "B",
+                            "value": "100"
+                        },
+                        {
+                            "key": "C",
+                            "value": "1000"
+                        },
+                        {
+                            "key": "D",
+                            "value": "10000"
+                        }
+                    ],
                     "correctAnswer": "C"
                 }
             ]
@@ -224,22 +368,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha scritto 'Il Gattopardo'?",
-                    "options": {
-                        "A": "Giuseppe Tomasi di Lampedusa",
-                        "B": "Italo Calvino",
-                        "C": "Alessandro Manzoni",
-                        "D": "Gabriele D'Annunzio"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Giuseppe Tomasi di Lampedusa"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Italo Calvino"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Alessandro Manzoni"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Gabriele D'Annunzio"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "Qual è la distanza media tra la Terra e il Sole?",
-                    "options": {
-                        "A": "149.6 milioni di km",
-                        "B": "100 milioni di km",
-                        "C": "200 milioni di km",
-                        "D": "250 milioni di km"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "149.6 milioni di km"
+                        },
+                        {
+                            "key": "B",
+                            "value": "100 milioni di km"
+                        },
+                        {
+                            "key": "C",
+                            "value": "200 milioni di km"
+                        },
+                        {
+                            "key": "D",
+                            "value": "250 milioni di km"
+                        }
+                    ],
                     "correctAnswer": "A"
                 }
             ]
@@ -250,22 +418,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha vinto il Premio Nobel per la Fisica nel 1921?",
-                    "options": {
-                        "A": "Albert Einstein",
-                        "B": "Niels Bohr",
-                        "C": "Marie Curie",
-                        "D": "Isaac Newton"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Albert Einstein"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Niels Bohr"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Marie Curie"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Isaac Newton"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "In che anno è stata lanciata la prima navetta spaziale Apollo?",
-                    "options": {
-                        "A": "1965",
-                        "B": "1966",
-                        "C": "1967",
-                        "D": "1968"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "1965"
+                        },
+                        {
+                            "key": "B",
+                            "value": "1966"
+                        },
+                        {
+                            "key": "C",
+                            "value": "1967"
+                        },
+                        {
+                            "key": "D",
+                            "value": "1968"
+                        }
+                    ],
                     "correctAnswer": "C"
                 }
             ]
@@ -276,22 +468,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha scoperto la teoria della relatività?",
-                    "options": {
-                        "A": "Isaac Newton",
-                        "B": "Galileo Galilei",
-                        "C": "Albert Einstein",
-                        "D": "Niels Bohr"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Isaac Newton"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Galileo Galilei"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Albert Einstein"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Niels Bohr"
+                        }
+                    ],
                     "correctAnswer": "C"
                 },
                 {
                     "question": "Qual è il continente più grande per superficie?",
-                    "options": {
-                        "A": "Africa",
-                        "B": "Asia",
-                        "C": "America del Nord",
-                        "D": "Antartide"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Africa"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Asia"
+                        },
+                        {
+                            "key": "C",
+                            "value": "America del Nord"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Antartide"
+                        }
+                    ],
                     "correctAnswer": "B"
                 }
             ]
@@ -302,22 +518,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha scritto 'Guerra e Pace'?",
-                    "options": {
-                        "A": "Fëdor Dostoevskij",
-                        "B": "Lev Tolstoj",
-                        "C": "Aleksandr Pushkin",
-                        "D": "Anton Čechov"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Fëdor Dostoevskij"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Lev Tolstoj"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Aleksandr Pushkin"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Anton Čechov"
+                        }
+                    ],
                     "correctAnswer": "B"
                 },
                 {
                     "question": "Qual è la lingua più parlata al mondo per numero di madrelingua?",
-                    "options": {
-                        "A": "Inglese",
-                        "B": "Spagnolo",
-                        "C": "Cinese mandarino",
-                        "D": "Hindi"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Inglese"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Spagnolo"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Cinese mandarino"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Hindi"
+                        }
+                    ],
                     "correctAnswer": "C"
                 }
             ]
@@ -328,22 +568,46 @@
             "gameQuestions": [
                 {
                     "question": "Qual è l'opera lirica più famosa di Giuseppe Verdi?",
-                    "options": {
-                        "A": "La Traviata",
-                        "B": "Nabucco",
-                        "C": "Rigoletto",
-                        "D": "Aida"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "La Traviata"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Nabucco"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Rigoletto"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Aida"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "Qual è la formula della velocità?",
-                    "options": {
-                        "A": "v = d/t",
-                        "B": "v = t/d",
-                        "C": "v = d*t",
-                        "D": "v = d+t"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "v = d/t"
+                        },
+                        {
+                            "key": "B",
+                            "value": "v = t/d"
+                        },
+                        {
+                            "key": "C",
+                            "value": "v = d*t"
+                        },
+                        {
+                            "key": "D",
+                            "value": "v = d+t"
+                        }
+                    ],
                     "correctAnswer": "A"
                 }
             ]
@@ -354,22 +618,46 @@
             "gameQuestions": [
                 {
                     "question": "Chi ha scoperto la penicillina?",
-                    "options": {
-                        "A": "Alexander Fleming",
-                        "B": "Louis Pasteur",
-                        "C": "Robert Koch",
-                        "D": "Joseph Lister"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Alexander Fleming"
+                        },
+                        {
+                            "key": "B",
+                            "value": "Louis Pasteur"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Robert Koch"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Joseph Lister"
+                        }
+                    ],
                     "correctAnswer": "A"
                 },
                 {
                     "question": "Qual è la città più popolosa del mondo?",
-                    "options": {
-                        "A": "Tokyo",
-                        "B": "New York",
-                        "C": "Shanghai",
-                        "D": "Delhi"
-                    },
+                    "options": [
+                        {
+                            "key": "A",
+                            "value": "Tokyo"
+                        },
+                        {
+                            "key": "B",
+                            "value": "New York"
+                        },
+                        {
+                            "key": "C",
+                            "value": "Shanghai"
+                        },
+                        {
+                            "key": "D",
+                            "value": "Delhi"
+                        }
+                    ],
                     "correctAnswer": "A"
                 }
             ]
